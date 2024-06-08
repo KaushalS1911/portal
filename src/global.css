@@ -1,0 +1,53 @@
+/* scrollbar */
+@import 'simplebar-react/dist/simplebar.min.css';
+
+/* lazy image */
+@import 'react-lazy-load-image-component/src/effects/blur.css';
+
+/* map */
+@import 'mapbox-gl/dist/mapbox-gl.css';
+
+/* editor */
+@import 'react-quill/dist/quill.snow.css';
+
+/* carousel */
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
+
+/* lightbox */
+@import 'yet-another-react-lightbox/styles.css';
+@import 'yet-another-react-lightbox/plugins/captions.css';
+@import 'yet-another-react-lightbox/plugins/thumbnails.css';
+
+/* scrollbar */
+.button {
+  background-color: #28a745 !important;
+  color: white !important;
+  transition: .3s !important;
+}
+
+.button:hover {
+  background-color: #218838 !important;
+  color: white !important;
+}
+
+.aqua-back {
+  background-color: #1abc9c !important;
+  color: white !important;
+}
+
+.aqua-back:hover {
+  background-color: #1abc9c !important;
+  color: white !important;
+}
+.ak-login-devider {
+  position: absolute;
+  width: 7px;
+  height: 360px;
+  z-index: 2;
+  background: #fff;
+  box-shadow: 10px 7px 15px rgba(0, 0, 0, 0.4);
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}

@@ -1,0 +1,1 @@
+export { default as DocumentListView } from './document-list-view';
